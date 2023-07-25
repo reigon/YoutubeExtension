@@ -3,3 +3,5 @@ pip install youtube-transcript-api
 pip install openllm
 npm install youtube-captions-scraper
 npm install express
+npm install cors  
+npm install openai
