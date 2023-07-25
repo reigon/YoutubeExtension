@@ -3,11 +3,29 @@
 <head>
   <title>YouTube Captions</title>
   <style>
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    h2 {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px;
+      margin: 0;
+    }
     #captions {
+      font-family: 'Verdana', sans-serif; 
       width: 300px; /* adjust as needed */
       white-space: pre-wrap; /* this makes the text wrap */
       word-wrap: break-word; /* this breaks long words onto the next line */
-      font-size: 13px; /* adjust as needed */
+      font-size: 14px; /* adjust as needed */
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin: 20px;
+      background-color: white;
     }
   </style>
 </head>
@@ -17,15 +35,3 @@
   <script src="popup.js"></script>
 </body>
 </html>
-
-
-<!-- 
-<h1>YouTube Captions</h1>
-  <form id="captionForm">
-    <label for="videoID">Video ID:</label><br>
-    <input type="text" id="videoID" name="videoID"><br>
-    <label for="lang">Language:</label><br>
-    <input type="text" id="lang" name="lang"><br>
-    <input type="submit" value="Get Captions">
-  </form>
-  -->

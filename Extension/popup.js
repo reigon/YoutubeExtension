@@ -14,7 +14,6 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
   if (url.includes("youtube.com/watch?v=")) {
     const videoID = getVideoID(url);
     const lang = 'en'; // replace with desired language or input field
-
     chrome.runtime.sendMessage({videoID, lang}, function(response) {
       document.getElementById('captions').innerText = response.concatenatedText;
     });
