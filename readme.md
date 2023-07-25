@@ -22,8 +22,6 @@ Navigate to any YouTube video and click the extension icon in your toolbar. The 
 
 ## Screenshots
 
-(Insert screenshots of your extension here)
-
 ![Screenshot 1](./docs/screenshot1.png)
 ![Screenshot 2](./docs/screenshot2.png)
 
