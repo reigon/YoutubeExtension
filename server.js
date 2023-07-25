@@ -18,7 +18,7 @@ const port = 3000;
 app.get('/get-captions', async (req, res) => { // Added async here
   // Define video id and language
   const videoID = req.query.videoID || 'XXXXX';
-  const lang = req.query.lang || 'fr';
+  const lang = req.query.lang || 'en';
 
   // Get captions
   try {
