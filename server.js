@@ -5,7 +5,8 @@ const cors = require('cors');
 
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
-    apiKey: "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",
+    // Insert your API key here:
+    apiKey: "",
 });
 const openai = new OpenAIApi(configuration);
 
